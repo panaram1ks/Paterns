@@ -1,6 +1,6 @@
 package first;
 
-public class RubberDuck extends Duck{
+public class DecoyDuck extends Duck {
 
     @Override
     void swim() {
@@ -11,5 +11,4 @@ public class RubberDuck extends Duck{
     void display() {
 
     }
-
 }

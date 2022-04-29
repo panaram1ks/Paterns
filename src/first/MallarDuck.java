@@ -1,11 +1,6 @@
 package first;
 
-public class MallarDuck extends Duck {
-
-    @Override
-    void quack() {
-
-    }
+public class MallarDuck extends Duck implements Flyable,Quackable{
 
     @Override
     void swim() {
@@ -17,10 +12,14 @@ public class MallarDuck extends Duck {
         System.out.println("MallarDuck");
     }
 
+
     @Override
-    void fly() {
+    public void fly() {
 
     }
 
+    @Override
+    public void quack() {
 
+    }
 }
